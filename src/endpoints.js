@@ -244,6 +244,10 @@ export const marketplaceApi = [
     path: 'stock/compare_and_set',
     method: 'post',
   },
+  {
+    path: 'user/upsert_advocate',
+    method: 'post',
+  },
 ];
 
 /**
